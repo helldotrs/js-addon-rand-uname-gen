@@ -1,0 +1,10 @@
+
+fetch (list1, list2, list3, divider_type)
+
+add_to_right_click_menu(generate_username())
+
+def generate_username()
+    divider = divider_type //example "-", "", "_"
+    uname  = rand(list1) + divider + rand(list2) + divider + rand(list3)
+
+    insert_into_textbox(uname)
